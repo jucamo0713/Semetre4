@@ -1,0 +1,5 @@
+[Ganancia] MAX= 0.10*B+0.16*H+0.13*A+0.20*P;
+[difofPB]P-B<=0;
+[difofHA]H-A<=0;
+A+B+H+P<=500000;
+[PorcentajesinP]0.75*P-0.25*(A+B+H)<=0;
